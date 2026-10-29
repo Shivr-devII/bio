@@ -1,0 +1,121 @@
+{
+  "sources": [
+    {
+      "title": "NCBI — The Standard Genetic Code",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG1"
+    },
+    {
+      "title": "MedlinePlus Genetics — Types of gene variants",
+      "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/possiblemutations/"
+    },
+    {
+      "title": "MedlinePlus Genetics — Sickle cell disease",
+      "url": "https://medlineplus.gov/genetics/condition/sickle-cell-disease/"
+    },
+    {
+      "title": "NCBI ClinVar — HBB c.20A>T / p.Glu7Val",
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/15333/"
+    },
+    {
+      "title": "NCBI GeneReviews — Sickle Cell Disease",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1377/"
+    },
+    {
+      "title": "NHGRI — Pedigree",
+      "url": "https://www.genome.gov/genetics-glossary/Pedigree"
+    }
+  ],
+  "slides": [
+    {
+      "title": "MutaSense",
+      "feature": "Mutation Investigation Agent",
+      "body": "A classroom prototype for Genes and Heredity",
+      "footnote": "Mission: help students trace a DNA change to its possible protein consequences.",
+      "notes": "Hello everyone. Our project is MutaSense, a mutation investigation agent for the Genes and Heredity track. It helps students follow the biological steps between a DNA change and a possible protein effect. Today we will demonstrate our working classroom prototype."
+    },
+    {
+      "title": "The biology problem",
+      "body": "A small DNA change can affect a protein, but its consequences are difficult to interpret from the DNA letters alone.",
+      "points": [
+        "Students must connect transcription, translation and mutation classification.",
+        "A changed amino acid does not automatically mean disease."
+      ],
+      "footnote": "Our goal is an understandable evidence trail, rather than a clinical prediction.",
+      "notes": "A real biology problem is understanding how a DNA variant can affect a protein. Students often see the mutation as only a changed letter. They must connect several steps: transcription, translation, and the biological effect. Even when an amino acid changes, we still need evidence to understand its impact. MutaSense makes that reasoning visible."
+    },
+    {
+      "title": "DNA, mRNA and protein",
+      "feature": "GTG  →  GUG  →  Val",
+      "points": [
+        "Inputs are coding DNA written 5′ to 3′; transcription replaces T with U.",
+        "The selected reading frame groups bases into three-base codons.",
+        "The standard genetic code maps codons to amino acids; translation ends at STOP."
+      ],
+      "footnote": "This model uses an already spliced coding fragment. A template strand requires a different conversion.",
+      "notes": "Our inputs are the coding DNA strand, written from five prime to three prime. In this model, transcription replaces T with U. The reading frame determines how we group the RNA into three-base codons. The standard genetic code then tells us which amino acid each codon represents. A stop codon ends translation. We do not infer the frame automatically.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "title": "A live agent with evidence tools",
+      "feature": "Compute → Retrieve → Explain",
+      "body": "Interpret evidence → Ask for missing context",
+      "points": [
+        "Deterministic tools preserve the sequence facts.",
+        "Qwen can call research and pedigree tools; visible answers stream.",
+        "Follow-up questions retain evidence and conversation context."
+      ],
+      "footnote": "Cloudflare token stays in local server memory. Source IDs link to records and abstracts.",
+      "notes": "Our local server independently computes sequence facts and checks the exact HBB case. It retrieves live database records and research abstracts. The Qwen model can call research and pedigree tools and interpret the results. Its visible explanations stream into the notebook. Follow-up questions reuse verified context. An existing Codex connection remains an alternative, but delivers complete answer blocks. Credentials stay in local server memory; they are not embedded in this presentation or saved in reports."
+    },
+    {
+      "title": "Live case: sickle-cell variant",
+      "feature": "GAG → GTG  /  Glu → Val",
+      "points": [
+        "One A → T substitution changes the fourth codon of our HBB fragment.",
+        "mRNA GAG → GUG produces a missense consequence.",
+        "For this known variant, deoxygenated HbS can polymerize and contribute to red-cell sickling."
+      ],
+      "footnote": "HBB c.20A>T; HGVS p.Glu7Val, traditionally β-globin Glu6Val. A fragment cannot establish a diagnosis.",
+      "notes": "Now I will load the sickle-cell HBB example and run the investigation. The normal fragment is CTGACTCCTGAGGAGAAG. The mutant fragment is CTGACTCCTGTGGAGAAG. At fragment base eleven, A changes to T. Codon four changes from GAG to GTG, so the RNA codon changes from GAG to GUG. Glutamate becomes valine: a missense change. The established HBB variant can cause deoxygenated hemoglobin S to polymerize, contributing to sickling. The full HBB numbering is c.20A to T. The traditional protein name is Glu6Val; HGVS includes the initial methionine and calls it Glu7Val. The person's second allele and wider clinical context matter.",
+      "sources": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "title": "Inheritance and follow-up",
+      "points": [
+        "Compare silent, nonsense, frameshift and in-frame edits.",
+        "Edit a fictional family or generate it from a problem statement.",
+        "Compute per-pregnancy genotype probabilities; retain unknowns.",
+        "Ask follow-up questions and inspect the source citations."
+      ],
+      "footnote": "Fictional single-locus autosomal model. Missing genotypes are not inferred.",
+      "notes": "The prototype also compares different mutation classes. We can load a fictional family or describe one in a problem statement. Every entered parent link and genotype is visible and editable. Aa by Aa gives 25 percent AA, 50 percent Aa and 25 percent aa for each pregnancy independently under the stated teaching assumptions. An unknown genotype remains unknown. We can ask a follow-up question without restarting the mutation investigation, and inspect the bibliography behind a source-based claim.",
+      "sources": [
+        1,
+        5
+      ]
+    },
+    {
+      "title": "Limits and next steps",
+      "points": [
+        "No gene mapping, protein folding or clinical diagnosis.",
+        "Related records and abstracts are not a full-text evidence review.",
+        "Pedigrees use fictional facts and simplified Mendelian assumptions.",
+        "Next: transcript-aware analysis and evaluated evidence quality."
+      ],
+      "body": "MutaSense helps students explain what the evidence shows and what remains unknown.",
+      "footnote": "Educational use only. Live AI and retrieval require a configured provider and internet.",
+      "notes": "Our limitations matter. We need a user-selected frame and coding fragment. Related literature is not proof of a match or pathogenicity. We retrieve metadata and abstract excerpts rather than reading full papers. Family probabilities use a simplified autosomal model and never diagnose a person. Live model access needs the local server, internet and configured provider credentials. Future work should add transcript-aware annotation, stronger alignment, careful source-quality evaluation and systematic checks of model explanations.",
+      "sources": [
+        0,
+        1,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+Singh K, Michaud D, Parness T, Mgbeke O, Okodaso H, Jones K, Ikolo BT, Thomas S, Ikolo F. (2026). Oxygen Timing as Therapy: Molecular Rationale and Clinical Imperative for Early Oxygen Administration in the Sickle Cell Disease Vaso-Occlusive Crisis-A Structured Narrative Review with Implications for Resource-Constrained Health Systems. Biomedicines. doi:10.3390/biomedicines14081682. PMID: 42652065.
+https://pubmed.ncbi.nlm.nih.gov/42652065/
+
+Clarke K, He W, Menon N, Schmidt T, Deymier A, Hurley M. (2026). GBT-1118 Rescued Impaired Bone Formation but Failed to Rescue Material Properties in Humanized Sickle-Cell-Disease Murine Model. Cells. doi:10.3390/cells15131209. PMID: 42439683.
+https://pubmed.ncbi.nlm.nih.gov/42439683/
+
+Somaili M. (2026). The Unfinished Story of Sickle Cell Nephropathy: A Narrative Review of Knowledge Gaps and Research Imperatives. Journal of clinical medicine. doi:10.3390/jcm15187185. PMID: 42795956.
+https://pubmed.ncbi.nlm.nih.gov/42795956/
+
+NCBI ClinVar. NM_000518.5(HBB):c.20A>T (p.Glu7Val). VCV000015333.183. Accessed 2026-10-06.
+https://www.ncbi.nlm.nih.gov/clinvar/variation/15333/
+
+Kondratyeva E, Efremova A, Melyanovskaya Y, Krasnova M, Milovanov M, Shchagina O, Stepanova A, Voronkova A, Sherman V, Kutsev S, Goldshtein D. (2025). L467F;F508del Complex Allele in a Heterozygous State with CFTRdele2,3: What to Expect from CFTR Modulators? International journal of molecular sciences. doi:10.3390/ijms262311742. PMID: 41373889.
+https://pubmed.ncbi.nlm.nih.gov/41373889/
+
+Lucca F, Pianazzola A, Meneghelli I, Catanzaro G, Sabbioni G, Tridello G, Hristodor AM, De Luca E, Menichetti G, Breveglieri G, Altieri MT, Bordicchia M, Fabrizzi B, Ferretti E, Lippi G, Ros M, Borgatti M, Cipolli M, Bezzerri V. (2026). Modulation of immune responses by elexacaftor/tezacaftor/ivacaftor therapy in cystic fibrosis: data from a compassionate use program. Respiratory research. doi:10.1186/s12931-026-03494-9. PMID: 41580795.
+https://pubmed.ncbi.nlm.nih.gov/41580795/
+
+Peixoto AO, Selicani LF, Safi CB, Borgli DSP, Toro AADC, Sansone NMS, Fraga AMA, Marson FAL, Ribeiro JD. (2026). Hypokalemic Hypochloremic Metabolic Alkalosis in Cystic Fibrosis: A Retrospective Observational Study with Clinical Characterization, CFTR Genetic Profiling, and a Comparative Genetic Analysis with Patients from a Brazilian Reference Center. International journal of molecular sciences. doi:10.3390/ijms27177668. PMID: 42737565.
+https://pubmed.ncbi.nlm.nih.gov/42737565/
+
+NCBI ClinVar. NM_000492.3(CFTR):c.1521_1523del (p.Phe508del). VCV000007105.213. Accessed 2026-10-06.
+https://www.ncbi.nlm.nih.gov/clinvar/variation/7105/
+
+Abrahim SC, Bansraj D, Edwards R, Thompson R, Rambaran R, Roach A, Warner WA, Chalapathi Rao AV, Unakal C, Haraksingh RR. (2025). Genetic screening of FFPE breast cancer biopsies for the BRCA1 -185delAG mutation in Trinidad and Tobago. Revista panamericana de salud publica = Pan American journal of public health. doi:10.26633/rpsp.2025.52. PMID: 40395657.
+https://pubmed.ncbi.nlm.nih.gov/40395657/
+
+Kulikowska B, Panasiuk B, Posmyk R. (2026). Frequency of Founder Mutations in BRCA1 and BRCA2 Genes in Hereditary Breast Cancers in Poland vs. Other Countries. Cancers. doi:10.3390/cancers18030492. PMID: 41681964.
+https://pubmed.ncbi.nlm.nih.gov/41681964/
+
+Sherigar P, Kedlaya Herga S, Pai A, Mailankody S, Udupa KS. (2026). Recent Advances in Genetic Testing and Clinical Management of Hereditary Breast and Ovarian Cancer (HBOC) in India. Cancer medicine. doi:10.1002/cam4.71497. PMID: 42499015.
+https://pubmed.ncbi.nlm.nih.gov/42499015/
+
+NCBI ClinVar. NM_007294.4(BRCA1):c.68_69del (p.Glu23fs). VCV000017662.188. Accessed 2026-10-06.
+https://www.ncbi.nlm.nih.gov/clinvar/variation/17662/
